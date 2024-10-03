@@ -1,0 +1,5 @@
+﻿1)
+Add-Migration -Context RentMicroServiceContext -o Persistence\Providers\Migrations\RentMicroServiceContext_v0.0.1
+
+2) 
+Update-DataBase -context RentMicroServiceContext
